@@ -1,0 +1,27 @@
+{
+  "maxResults": 50,
+  "startAt": 0,
+  "isLast": true,
+  "values": [
+    {
+      "id": 2,
+      "self": "https://jira.example.test/rest/agile/1.0/sprint/2",
+      "state": "active",
+      "name": "DEMO Sprint 2",
+      "startDate": "2026-11-02T08:00:00.000Z",
+      "endDate": "2026-11-16T17:00:00.000Z",
+      "createdDate": "2026-10-28T10:12:00.000Z",
+      "originBoardId": 1,
+      "goal": "Livrer la connexion"
+    },
+    {
+      "id": 3,
+      "self": "https://jira.example.test/rest/agile/1.0/sprint/3",
+      "state": "future",
+      "name": "DEMO Sprint 3",
+      "createdDate": "2026-11-05T09:30:00.000Z",
+      "originBoardId": 1,
+      "goal": ""
+    }
+  ]
+}

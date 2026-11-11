@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "self": "https://jira.example.test/rest/agile/1.0/sprint/3",
+  "state": "active",
+  "name": "DEMO Sprint 3",
+  "startDate": "2026-11-16T08:00:00.000Z",
+  "endDate": "2026-11-30T17:00:00.000Z",
+  "createdDate": "2026-11-05T09:30:00.000Z",
+  "originBoardId": 1,
+  "goal": "Gestion des versions"
+}

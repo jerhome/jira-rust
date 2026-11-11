@@ -1,0 +1,93 @@
+{
+  "expand": "names,schema",
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10000",
+      "self": "https://jira.example.test/rest/agile/1.0/issue/10000",
+      "key": "DEMO-1",
+      "fields": {
+        "summary": "Configurer l'authentification par jeton",
+        "status": {
+          "self": "https://jira.example.test/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://jira.example.test/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://jira.example.test/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "issuetype": {
+          "self": "https://jira.example.test/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "name": "Story",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "priority": {
+          "self": "https://jira.example.test/rest/api/2/priority/3",
+          "iconUrl": "https://jira.example.test/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "assignee": {
+          "self": "https://jira.example.test/rest/api/2/user?accountId=712020:00000000-0000-0000-0000-00000000a11c",
+          "accountId": "712020:00000000-0000-0000-0000-00000000a11c",
+          "avatarUrls": {
+            "48x48": "https://avatar.example.test/alice/48.png",
+            "24x24": "https://avatar.example.test/alice/24.png",
+            "16x16": "https://avatar.example.test/alice/16.png",
+            "32x32": "https://avatar.example.test/alice/32.png"
+          },
+          "displayName": "Alice Martin",
+          "active": true,
+          "timeZone": "Europe/Paris",
+          "accountType": "atlassian"
+        },
+        "fixVersions": [
+          {
+            "self": "https://jira.example.test/rest/api/2/version/10100",
+            "id": "10100",
+            "description": "Premiere version publique",
+            "name": "1.0.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2026-12-01"
+          }
+        ],
+        "customfield_10020": [
+          {
+            "id": 2,
+            "name": "DEMO Sprint 2",
+            "state": "active",
+            "boardId": 1,
+            "goal": "Livrer la connexion",
+            "startDate": "2026-11-02T08:00:00.000Z",
+            "endDate": "2026-11-16T17:00:00.000Z"
+          }
+        ],
+        "customfield_10016": 3.0,
+        "customfield_10019": "0|i0000f:",
+        "sprint": {
+          "id": 2,
+          "self": "https://jira.example.test/rest/agile/1.0/sprint/2",
+          "state": "active",
+          "name": "DEMO Sprint 2",
+          "startDate": "2026-11-02T08:00:00.000Z",
+          "endDate": "2026-11-16T17:00:00.000Z",
+          "originBoardId": 1,
+          "goal": "Livrer la connexion"
+        },
+        "closedSprints": [],
+        "flagged": false,
+        "epic": null
+      }
+    }
+  ],
+  "isLast": true
+}

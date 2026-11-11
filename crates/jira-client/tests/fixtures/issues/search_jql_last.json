@@ -1,0 +1,69 @@
+{
+  "issues": [
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "10002",
+      "self": "https://jira.example.test/rest/api/3/issue/10002",
+      "key": "DEMO-3",
+      "fields": {
+        "summary": "Ecran de connexion",
+        "status": {
+          "self": "https://jira.example.test/rest/api/3/status/10001",
+          "description": "",
+          "iconUrl": "https://jira.example.test/",
+          "name": "Done",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://jira.example.test/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "issuetype": {
+          "self": "https://jira.example.test/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Functionality or a feature expressed as a user goal.",
+          "iconUrl": "https://jira.example.test/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10315,
+          "hierarchyLevel": 0
+        },
+        "priority": {
+          "self": "https://jira.example.test/rest/api/3/priority/3",
+          "iconUrl": "https://jira.example.test/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "assignee": null,
+        "fixVersions": [
+          {
+            "self": "https://jira.example.test/rest/api/3/version/10100",
+            "id": "10100",
+            "description": "Premiere version publique",
+            "name": "1.0.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2026-12-01"
+          }
+        ],
+        "customfield_10020": [
+          {
+            "id": 2,
+            "name": "DEMO Sprint 2",
+            "state": "active",
+            "boardId": 1,
+            "goal": "Livrer la connexion",
+            "startDate": "2026-11-02T08:00:00.000Z",
+            "endDate": "2026-11-16T17:00:00.000Z"
+          }
+        ],
+        "customfield_10016": null,
+        "customfield_10019": "0|i0000v:"
+      }
+    }
+  ],
+  "isLast": true
+}

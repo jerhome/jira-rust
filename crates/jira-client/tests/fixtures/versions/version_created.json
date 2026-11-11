@@ -1,0 +1,13 @@
+{
+  "self": "https://jira.example.test/rest/api/3/version/10102",
+  "id": "10102",
+  "description": "Gestion des versions dans la TUI",
+  "name": "1.2.0",
+  "archived": false,
+  "released": false,
+  "startDate": "2027-01-16",
+  "releaseDate": "2027-02-28",
+  "userStartDate": "16/Jan/27",
+  "userReleaseDate": "28/Feb/27",
+  "projectId": 10000
+}

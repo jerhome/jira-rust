@@ -1,0 +1,103 @@
+{
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 8,
+  "fields": [
+    {
+      "fieldId": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "required": true,
+      "hasDefaultValue": false,
+      "operations": ["set"],
+      "schema": { "type": "string", "system": "summary" }
+    },
+    {
+      "fieldId": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "required": true,
+      "hasDefaultValue": false,
+      "operations": [],
+      "schema": { "type": "issuetype", "system": "issuetype" },
+      "allowedValues": [
+        { "self": "https://jira.example.test/rest/api/3/issuetype/10001", "id": "10001", "name": "Story", "subtask": false }
+      ]
+    },
+    {
+      "fieldId": "description",
+      "key": "description",
+      "name": "Description",
+      "required": false,
+      "hasDefaultValue": false,
+      "operations": ["set"],
+      "schema": { "type": "string", "system": "description" }
+    },
+    {
+      "fieldId": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "required": false,
+      "hasDefaultValue": true,
+      "defaultValue": { "self": "https://jira.example.test/rest/api/3/priority/3", "id": "3", "name": "Medium" },
+      "operations": ["set"],
+      "schema": { "type": "priority", "system": "priority" },
+      "allowedValues": [
+        { "self": "https://jira.example.test/rest/api/3/priority/1", "id": "1", "name": "Highest" },
+        { "self": "https://jira.example.test/rest/api/3/priority/2", "id": "2", "name": "High" },
+        { "self": "https://jira.example.test/rest/api/3/priority/3", "id": "3", "name": "Medium" },
+        { "self": "https://jira.example.test/rest/api/3/priority/4", "id": "4", "name": "Low" },
+        { "self": "https://jira.example.test/rest/api/3/priority/5", "id": "5", "name": "Lowest" }
+      ]
+    },
+    {
+      "fieldId": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "required": false,
+      "hasDefaultValue": false,
+      "autoCompleteUrl": "https://jira.example.test/rest/api/3/user/assignable/search?project=DEMO&query=",
+      "operations": ["set"],
+      "schema": { "type": "user", "system": "assignee" }
+    },
+    {
+      "fieldId": "fixVersions",
+      "key": "fixVersions",
+      "name": "Fix versions",
+      "required": false,
+      "hasDefaultValue": false,
+      "operations": ["set", "add", "remove"],
+      "schema": { "type": "array", "items": "version", "system": "fixVersions" },
+      "allowedValues": [
+        { "self": "https://jira.example.test/rest/api/3/version/10100", "id": "10100", "name": "1.0.0", "archived": false, "released": false, "projectId": 10000 }
+      ]
+    },
+    {
+      "fieldId": "customfield_10016",
+      "key": "customfield_10016",
+      "name": "Story point estimate",
+      "required": false,
+      "hasDefaultValue": false,
+      "operations": ["set"],
+      "schema": {
+        "type": "number",
+        "custom": "com.pyxis.greenhopper.jira:jsw-story-points",
+        "customId": 10016
+      }
+    },
+    {
+      "fieldId": "customfield_10020",
+      "key": "customfield_10020",
+      "name": "Sprint",
+      "required": false,
+      "hasDefaultValue": false,
+      "operations": ["set"],
+      "schema": {
+        "type": "array",
+        "items": "json",
+        "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+        "customId": 10020
+      }
+    }
+  ]
+}

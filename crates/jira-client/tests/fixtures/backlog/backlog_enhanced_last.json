@@ -1,0 +1,96 @@
+{
+  "expand": "names,schema",
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10004",
+      "self": "https://jira.example.test/rest/agile/1.0/issue/10004",
+      "key": "DEMO-5",
+      "fields": {
+        "summary": "Mettre a jour les dependances",
+        "status": {
+          "self": "https://jira.example.test/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://jira.example.test/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://jira.example.test/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "issuetype": {
+          "self": "https://jira.example.test/rest/api/2/issuetype/10003",
+          "id": "10003",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "priority": {
+          "self": "https://jira.example.test/rest/api/2/priority/3",
+          "iconUrl": "https://jira.example.test/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "assignee": {
+          "self": "https://jira.example.test/rest/api/2/user?accountId=712020:00000000-0000-0000-0000-000000000b0b",
+          "accountId": "712020:00000000-0000-0000-0000-000000000b0b",
+          "avatarUrls": {
+            "48x48": "https://avatar.example.test/bob/48.png",
+            "24x24": "https://avatar.example.test/bob/24.png",
+            "16x16": "https://avatar.example.test/bob/16.png",
+            "32x32": "https://avatar.example.test/bob/32.png"
+          },
+          "displayName": "Bob Durand",
+          "active": true,
+          "timeZone": "Europe/Paris",
+          "accountType": "atlassian"
+        },
+        "fixVersions": [
+          {
+            "self": "https://jira.example.test/rest/api/2/version/10101",
+            "id": "10101",
+            "description": "",
+            "name": "1.1.0",
+            "archived": false,
+            "released": false
+          }
+        ],
+        "customfield_10020": [
+          {
+            "id": 1,
+            "name": "DEMO Sprint 1",
+            "state": "closed",
+            "boardId": 1,
+            "goal": "",
+            "startDate": "2026-10-19T08:00:00.000Z",
+            "endDate": "2026-11-02T17:00:00.000Z",
+            "completeDate": "2026-11-02T16:45:12.345Z"
+          }
+        ],
+        "customfield_10016": 1.0,
+        "customfield_10019": "0|i0001b:",
+        "sprint": null,
+        "closedSprints": [
+          {
+            "id": 1,
+            "self": "https://jira.example.test/rest/agile/1.0/sprint/1",
+            "state": "closed",
+            "name": "DEMO Sprint 1",
+            "startDate": "2026-10-19T08:00:00.000Z",
+            "endDate": "2026-11-02T17:00:00.000Z",
+            "completeDate": "2026-11-02T16:45:12.345Z",
+            "originBoardId": 1,
+            "goal": ""
+          }
+        ],
+        "flagged": false,
+        "epic": null
+      }
+    }
+  ],
+  "isLast": true
+}

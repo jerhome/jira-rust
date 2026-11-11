@@ -1,0 +1,5 @@
+{
+  "issues": ["DEMO-5"],
+  "rankBeforeIssue": "DEMO-4",
+  "rankCustomFieldId": 10019
+}

@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "headers": {
+    "X-RateLimit-Limit": "100",
+    "X-RateLimit-Remaining": "12",
+    "X-RateLimit-NearLimit": "true",
+    "Beta-Retry-After": "30",
+    "X-Beta-RateLimit-Limit": "100",
+    "X-Beta-RateLimit-Remaining": "0",
+    "X-Beta-RateLimit-Reset": "2026-11-11T10:16:00Z",
+    "X-Beta-RateLimit-Reason": "jira-burst-based",
+    "X-Beta-RateLimit-NearLimit": "true"
+  },
+  "body": "{\"accountId\":\"712020:00000000-0000-0000-0000-00000000a11c\",\"displayName\":\"alice\",\"active\":true}"
+}

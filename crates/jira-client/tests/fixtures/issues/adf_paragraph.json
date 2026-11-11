@@ -1,0 +1,24 @@
+{
+  "type": "doc",
+  "version": 1,
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "En tant qu'utilisateur, je veux me connecter avec un jeton API."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critere : le jeton est stocke hors du depot."
+        }
+      ]
+    }
+  ]
+}

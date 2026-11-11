@@ -1,0 +1,11 @@
+{
+  "status": 429,
+  "headers": {
+    "Retry-After": "1847",
+    "X-RateLimit-Limit": "100",
+    "X-RateLimit-Remaining": "0",
+    "X-RateLimit-Reset": "2026-11-11T10:46:17Z",
+    "RateLimit-Reason": "jira-quota-tenant-based"
+  },
+  "body": ""
+}

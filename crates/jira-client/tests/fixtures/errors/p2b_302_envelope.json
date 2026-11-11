@@ -1,0 +1,7 @@
+{
+  "status": 302,
+  "headers": {
+    "Location": "https://jira-renamed.example.test/rest/api/3/myself"
+  },
+  "body": ""
+}

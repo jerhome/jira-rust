@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "summary": "Afficher le sprint actif (avec points)",
+    "customfield_10016": 5,
+    "assignee": { "accountId": "712020:00000000-0000-0000-0000-00000000a11c" }
+  },
+  "update": {
+    "fixVersions": [
+      { "set": [{ "id": "10100" }] }
+    ]
+  }
+}

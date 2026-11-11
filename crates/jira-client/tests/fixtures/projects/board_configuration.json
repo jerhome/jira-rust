@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "name": "DEMO board",
+  "type": "scrum",
+  "self": "https://jira.example.test/rest/agile/1.0/board/1/configuration",
+  "location": {
+    "type": "project",
+    "id": "10000"
+  },
+  "filter": {
+    "id": "10001",
+    "self": "https://jira.example.test/rest/api/2/filter/10001"
+  },
+  "columnConfig": {
+    "columns": [
+      { "name": "To Do", "statuses": [{ "id": "10000", "self": "https://jira.example.test/rest/api/2/status/10000" }] },
+      { "name": "In Progress", "statuses": [{ "id": "3", "self": "https://jira.example.test/rest/api/2/status/3" }] },
+      { "name": "Done", "statuses": [{ "id": "10001", "self": "https://jira.example.test/rest/api/2/status/10001" }] }
+    ],
+    "constraintType": "issueCount"
+  },
+  "estimation": {
+    "type": "field",
+    "field": {
+      "fieldId": "customfield_10016",
+      "displayName": "Story point estimate"
+    }
+  },
+  "ranking": {
+    "rankCustomFieldId": 10019
+  }
+}

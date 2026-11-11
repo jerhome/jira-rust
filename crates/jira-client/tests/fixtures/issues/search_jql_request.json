@@ -1,0 +1,16 @@
+{
+  "jql": "project = DEMO AND sprint in openSprints() ORDER BY Rank ASC",
+  "fields": [
+    "summary",
+    "status",
+    "issuetype",
+    "priority",
+    "assignee",
+    "fixVersions",
+    "customfield_10020",
+    "customfield_10016",
+    "customfield_10019"
+  ],
+  "maxResults": 2,
+  "fieldsByKeys": false
+}

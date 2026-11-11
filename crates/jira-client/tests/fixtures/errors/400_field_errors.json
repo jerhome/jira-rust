@@ -1,0 +1,7 @@
+{
+  "errorMessages": [],
+  "errors": {
+    "summary": "You must specify a summary of the issue.",
+    "customfield_10016": "Field 'customfield_10016' cannot be set. It is not on the appropriate screen, or unknown."
+  }
+}

@@ -1,0 +1,5 @@
+# Garde-fou : toute commande cargo (run, test) est en mode hors-ligne.
+# Le client Jira refuse alors tout hôte non local (seul wiremock est joignable).
+# Pour un test réel autorisé, l'utilisateur lance lui-même : JIRA_RUST_OFFLINE=0 cargo run -- doctor
+[env]
+JIRA_RUST_OFFLINE = "1"

@@ -1,0 +1,8 @@
+{
+  "id": 5,
+  "self": "https://jira.example.test/rest/agile/1.0/sprint/5",
+  "state": "future",
+  "name": "DEMO Sprint 5",
+  "createdDate": "2026-11-11T10:01:00.000Z",
+  "originBoardId": 1
+}

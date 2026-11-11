@@ -1,0 +1,131 @@
+{
+  "expand": "transitions",
+  "transitions": [
+    {
+      "id": "21",
+      "name": "In Progress",
+      "to": {
+        "self": "https://jira.example.test/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://jira.example.test/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://jira.example.test/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "hasScreen": false,
+      "isGlobal": true,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": false,
+      "isLooped": false,
+      "fields": {}
+    },
+    {
+      "id": "31",
+      "name": "Done",
+      "to": {
+        "self": "https://jira.example.test/rest/api/3/status/10001",
+        "description": "",
+        "iconUrl": "https://jira.example.test/",
+        "name": "Done",
+        "id": "10001",
+        "statusCategory": {
+          "self": "https://jira.example.test/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      "hasScreen": true,
+      "isGlobal": true,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": false,
+      "isLooped": false,
+      "fields": {
+        "resolution": {
+          "required": true,
+          "schema": {
+            "type": "resolution",
+            "system": "resolution"
+          },
+          "name": "Resolution",
+          "key": "resolution",
+          "operations": ["set"],
+          "allowedValues": [
+            {
+              "self": "https://jira.example.test/rest/api/3/resolution/10000",
+              "id": "10000",
+              "name": "Done",
+              "description": "Work has been completed on this issue."
+            },
+            {
+              "self": "https://jira.example.test/rest/api/3/resolution/10001",
+              "id": "10001",
+              "name": "Won't Do",
+              "description": "This issue won't be actioned."
+            }
+          ],
+          "hasDefaultValue": false
+        },
+        "customfield_10016": {
+          "required": false,
+          "schema": {
+            "type": "number",
+            "custom": "com.pyxis.greenhopper.jira:jsw-story-points",
+            "customId": 10016
+          },
+          "name": "Story point estimate",
+          "key": "customfield_10016",
+          "operations": ["set"],
+          "hasDefaultValue": false
+        }
+      }
+    },
+    {
+      "id": "41",
+      "name": "Review",
+      "to": {
+        "self": "https://jira.example.test/rest/api/3/status/10002",
+        "description": "",
+        "iconUrl": "https://jira.example.test/",
+        "name": "In Review",
+        "id": "10002",
+        "statusCategory": {
+          "self": "https://jira.example.test/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "hasScreen": true,
+      "isGlobal": false,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": true,
+      "isLooped": false,
+      "fields": {
+        "assignee": {
+          "required": false,
+          "schema": {
+            "type": "user",
+            "system": "assignee"
+          },
+          "name": "Assignee",
+          "key": "assignee",
+          "autoCompleteUrl": "https://jira.example.test/rest/api/3/user/assignable/search?issueKey=DEMO-5&query=",
+          "operations": ["set"],
+          "hasDefaultValue": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "1.1.0",
+  "description": "Correctifs et versions",
+  "startDate": "2026-12-01",
+  "releaseDate": "2026-12-15",
+  "released": true,
+  "archived": false,
+  "moveUnfixedIssuesTo": "https://jira.example.test/rest/api/3/version/10102"
+}

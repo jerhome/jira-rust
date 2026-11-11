@@ -1,0 +1,13 @@
+{
+  "self": "https://jira.example.test/rest/api/3/version/10101",
+  "id": "10101",
+  "description": "Correctifs et versions",
+  "name": "1.1.0",
+  "archived": false,
+  "released": true,
+  "startDate": "2026-12-01",
+  "releaseDate": "2026-12-15",
+  "userStartDate": "01/Dec/26",
+  "userReleaseDate": "15/Dec/26",
+  "projectId": 10000
+}

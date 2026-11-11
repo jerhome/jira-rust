@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "issueId": 10003,
+      "issueKey": "DEMO-4",
+      "status": 200
+    },
+    {
+      "issueId": 10004,
+      "issueKey": "DEMO-5",
+      "status": 200,
+      "errors": []
+    }
+  ]
+}

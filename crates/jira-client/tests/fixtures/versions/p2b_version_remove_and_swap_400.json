@@ -1,0 +1,6 @@
+{
+  "errorMessages": [
+    "The replacement version must be in the same project as the version being deleted and cannot be the version being deleted."
+  ],
+  "errors": {}
+}

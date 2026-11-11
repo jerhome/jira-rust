@@ -1,0 +1,10 @@
+{
+  "moveFixIssuesTo": 10101,
+  "moveAffectedIssuesTo": 10101,
+  "customFieldReplacementList": [
+    {
+      "customFieldId": 10050,
+      "moveTo": 10101
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "summary",
+    "key": "summary",
+    "name": "Summary",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["summary"],
+    "schema": { "type": "string", "system": "summary" }
+  },
+  {
+    "id": "description",
+    "key": "description",
+    "name": "Description",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["description"],
+    "schema": { "type": "string", "system": "description" }
+  },
+  {
+    "id": "status",
+    "key": "status",
+    "name": "Status",
+    "custom": false,
+    "orderable": false,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["status"],
+    "schema": { "type": "status", "system": "status" }
+  },
+  {
+    "id": "issuetype",
+    "key": "issuetype",
+    "name": "Issue Type",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["issuetype", "type"],
+    "schema": { "type": "issuetype", "system": "issuetype" }
+  },
+  {
+    "id": "priority",
+    "key": "priority",
+    "name": "Priority",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["priority"],
+    "schema": { "type": "priority", "system": "priority" }
+  },
+  {
+    "id": "assignee",
+    "key": "assignee",
+    "name": "Assignee",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["assignee"],
+    "schema": { "type": "user", "system": "assignee" }
+  },
+  {
+    "id": "fixVersions",
+    "key": "fixVersions",
+    "name": "Fix versions",
+    "custom": false,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["fixVersion"],
+    "schema": { "type": "array", "items": "version", "system": "fixVersions" }
+  },
+  {
+    "id": "customfield_10020",
+    "key": "customfield_10020",
+    "name": "Sprint",
+    "untranslatedName": "Sprint",
+    "custom": true,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["cf[10020]", "Sprint"],
+    "schema": {
+      "type": "array",
+      "items": "json",
+      "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+      "customId": 10020
+    }
+  },
+  {
+    "id": "customfield_10016",
+    "key": "customfield_10016",
+    "name": "Story point estimate",
+    "untranslatedName": "Story point estimate",
+    "custom": true,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["cf[10016]", "Story point estimate"],
+    "schema": {
+      "type": "number",
+      "custom": "com.pyxis.greenhopper.jira:jsw-story-points",
+      "customId": 10016
+    }
+  },
+  {
+    "id": "customfield_10028",
+    "key": "customfield_10028",
+    "name": "Story Points",
+    "untranslatedName": "Story Points",
+    "custom": true,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["cf[10028]", "Story Points"],
+    "schema": {
+      "type": "number",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+      "customId": 10028
+    }
+  },
+  {
+    "id": "customfield_10019",
+    "key": "customfield_10019",
+    "name": "Rank",
+    "untranslatedName": "Rank",
+    "custom": true,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["cf[10019]", "Rank"],
+    "schema": {
+      "type": "any",
+      "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+      "customId": 10019
+    }
+  },
+  {
+    "id": "customfield_10050",
+    "key": "customfield_10050",
+    "name": "Estimation interne",
+    "untranslatedName": "Estimation interne",
+    "custom": true,
+    "orderable": true,
+    "navigable": true,
+    "searchable": true,
+    "clauseNames": ["cf[10050]", "Estimation interne"],
+    "schema": {
+      "type": "number",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+      "customId": 10050
+    }
+  }
+]

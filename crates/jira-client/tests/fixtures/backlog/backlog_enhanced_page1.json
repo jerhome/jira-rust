@@ -1,0 +1,52 @@
+{
+  "expand": "names,schema",
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10003",
+      "self": "https://jira.example.test/rest/agile/1.0/issue/10003",
+      "key": "DEMO-4",
+      "fields": {
+        "summary": "Exporter le backlog en CSV",
+        "status": {
+          "self": "https://jira.example.test/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://jira.example.test/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://jira.example.test/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "issuetype": {
+          "self": "https://jira.example.test/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "name": "Story",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "priority": {
+          "self": "https://jira.example.test/rest/api/2/priority/4",
+          "iconUrl": "https://jira.example.test/images/icons/priorities/low.svg",
+          "name": "Low",
+          "id": "4"
+        },
+        "assignee": null,
+        "fixVersions": [],
+        "customfield_10020": null,
+        "customfield_10016": null,
+        "customfield_10019": "0|i00013:",
+        "sprint": null,
+        "closedSprints": [],
+        "flagged": false,
+        "epic": null
+      }
+    }
+  ],
+  "nextPageToken": "CAEaAggCIgIKAA==",
+  "isLast": false
+}

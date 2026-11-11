@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "self": "https://jira.example.test/rest/agile/1.0/sprint/2",
+  "state": "closed",
+  "name": "DEMO Sprint 2",
+  "startDate": "2026-11-02T08:00:00.000Z",
+  "endDate": "2026-11-16T17:00:00.000Z",
+  "completeDate": "2026-11-16T16:58:03.120Z",
+  "createdDate": "2026-10-28T10:12:00.000Z",
+  "originBoardId": 1,
+  "goal": "Livrer la connexion"
+}

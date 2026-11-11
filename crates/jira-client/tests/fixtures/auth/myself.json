@@ -1,0 +1,25 @@
+{
+  "self": "https://jira.example.test/rest/api/3/user?accountId=712020:00000000-0000-0000-0000-00000000a11c",
+  "accountId": "712020:00000000-0000-0000-0000-00000000a11c",
+  "accountType": "atlassian",
+  "emailAddress": "alice@example.com",
+  "avatarUrls": {
+    "48x48": "https://avatar.example.test/alice/48.png",
+    "24x24": "https://avatar.example.test/alice/24.png",
+    "16x16": "https://avatar.example.test/alice/16.png",
+    "32x32": "https://avatar.example.test/alice/32.png"
+  },
+  "displayName": "Alice Martin",
+  "active": true,
+  "timeZone": "Europe/Paris",
+  "locale": "fr_FR",
+  "groups": {
+    "size": 2,
+    "items": []
+  },
+  "applicationRoles": {
+    "size": 1,
+    "items": []
+  },
+  "expand": "groups,applicationRoles"
+}

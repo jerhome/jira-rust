@@ -1,0 +1,9 @@
+{
+  "name": "1.2.0",
+  "description": "Gestion des versions dans la TUI",
+  "projectId": 10000,
+  "startDate": "2027-01-16",
+  "releaseDate": "2027-02-28",
+  "released": false,
+  "archived": false
+}

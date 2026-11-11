@@ -1,0 +1,27 @@
+{
+  "self": "https://jira.example.test/rest/api/3/project/search?maxResults=50&startAt=0&typeKey=software",
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 1,
+  "isLast": true,
+  "values": [
+    {
+      "expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+      "self": "https://jira.example.test/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "DEMO",
+      "name": "Demo",
+      "avatarUrls": {
+        "48x48": "https://jira.example.test/rest/api/3/universal_avatar/view/type/project/avatar/10400",
+        "24x24": "https://jira.example.test/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=small",
+        "16x16": "https://jira.example.test/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+        "32x32": "https://jira.example.test/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=medium"
+      },
+      "projectTypeKey": "software",
+      "simplified": false,
+      "style": "classic",
+      "isPrivate": false,
+      "properties": {}
+    }
+  ]
+}

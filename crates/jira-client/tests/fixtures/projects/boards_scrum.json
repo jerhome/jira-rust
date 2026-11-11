@@ -1,0 +1,23 @@
+{
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 1,
+  "isLast": true,
+  "values": [
+    {
+      "id": 1,
+      "self": "https://jira.example.test/rest/agile/1.0/board/1",
+      "name": "DEMO board",
+      "type": "scrum",
+      "location": {
+        "projectId": 10000,
+        "displayName": "Demo (DEMO)",
+        "projectName": "Demo",
+        "projectKey": "DEMO",
+        "projectTypeKey": "software",
+        "avatarURI": "https://jira.example.test/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=small",
+        "name": "Demo (DEMO)"
+      }
+    }
+  ]
+}

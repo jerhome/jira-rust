@@ -1,0 +1,36 @@
+{
+  "self": "https://jira.example.test/rest/api/3/project/DEMO/version?maxResults=2&startAt=0&orderBy=-releaseDate",
+  "nextPage": "https://jira.example.test/rest/api/3/project/DEMO/version?maxResults=2&startAt=2&orderBy=-releaseDate",
+  "maxResults": 2,
+  "startAt": 0,
+  "total": 3,
+  "isLast": false,
+  "values": [
+    {
+      "self": "https://jira.example.test/rest/api/3/version/10101",
+      "id": "10101",
+      "description": "",
+      "name": "1.1.0",
+      "archived": false,
+      "released": false,
+      "startDate": "2026-12-02",
+      "releaseDate": "2027-01-15",
+      "overdue": false,
+      "userStartDate": "02/Dec/26",
+      "userReleaseDate": "15/Jan/27",
+      "projectId": 10000
+    },
+    {
+      "self": "https://jira.example.test/rest/api/3/version/10100",
+      "id": "10100",
+      "description": "Premiere version publique",
+      "name": "1.0.0",
+      "archived": false,
+      "released": false,
+      "releaseDate": "2026-12-01",
+      "overdue": false,
+      "userReleaseDate": "01/Dec/26",
+      "projectId": 10000
+    }
+  ]
+}

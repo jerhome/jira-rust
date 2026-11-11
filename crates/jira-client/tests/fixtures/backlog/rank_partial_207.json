@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "issueId": 10004,
+      "issueKey": "DEMO-5",
+      "status": 200
+    },
+    {
+      "issueId": 10005,
+      "issueKey": "DEMO-6",
+      "status": 403,
+      "errors": ["You don't have permission to rank this issue."]
+    }
+  ]
+}

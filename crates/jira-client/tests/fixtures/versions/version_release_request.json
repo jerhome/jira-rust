@@ -1,0 +1,5 @@
+{
+  "released": true,
+  "releaseDate": "2026-12-01",
+  "moveUnfixedIssuesTo": "https://jira.example.test/rest/api/3/version/10101"
+}

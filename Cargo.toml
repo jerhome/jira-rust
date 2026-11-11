@@ -1,0 +1,27 @@
+[workspace]
+resolver = "2"
+members = ["crates/jira-client", "crates/jira-tui", "crates/jira-fake"]
+
+[workspace.package]
+edition = "2024"
+license = "MIT"
+
+[profile.release]
+# Binaire distribué : taille réduite (≈ 8,0 Mo → 5,4 Mo en musl) ; une TUI
+# limitée par le réseau ne gagne rien à opt-level 3.
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = true
+# panic = "unwind" conservé : le hook color-eyre restaure le terminal et les
+# paniques de tâches tokio restent récupérables (JoinError).
+
+[profile.dev]
+# Disque limité (WSL) : infos de debug réduites ; les dépendances sans debuginfo.
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false
+
+[profile.test]
+debug = "line-tables-only"

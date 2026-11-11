@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "self": "https://jira.example.test/rest/agile/1.0/sprint/1",
+  "state": "closed",
+  "name": "DEMO Sprint 1 (archive)",
+  "startDate": "2026-10-19T08:00:00.000Z",
+  "endDate": "2026-11-01T17:00:00.000Z",
+  "completeDate": "2026-11-02T09:12:00.000Z",
+  "createdDate": "2026-10-15T14:00:00.000Z",
+  "originBoardId": 1,
+  "goal": "Socle livre"
+}

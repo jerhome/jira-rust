@@ -1,0 +1,11 @@
+{
+  "self": "https://jira.example.test/rest/api/3/version/10100",
+  "id": "10100",
+  "description": "Premiere version publique",
+  "name": "1.0.0",
+  "archived": true,
+  "released": true,
+  "releaseDate": "2026-12-01",
+  "userReleaseDate": "01/Dec/26",
+  "projectId": 10000
+}

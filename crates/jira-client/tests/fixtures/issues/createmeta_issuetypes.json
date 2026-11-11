@@ -1,0 +1,47 @@
+{
+  "maxResults": 50,
+  "startAt": 0,
+  "total": 4,
+  "issueTypes": [
+    {
+      "self": "https://jira.example.test/rest/api/3/issuetype/10000",
+      "id": "10000",
+      "description": "A big user story that needs to be broken down.",
+      "iconUrl": "https://jira.example.test/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+      "name": "Epic",
+      "untranslatedName": "Epic",
+      "subtask": false,
+      "hierarchyLevel": 1
+    },
+    {
+      "self": "https://jira.example.test/rest/api/3/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://jira.example.test/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+      "name": "Story",
+      "untranslatedName": "Story",
+      "subtask": false,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://jira.example.test/rest/api/3/issuetype/10002",
+      "id": "10002",
+      "description": "A problem or error.",
+      "iconUrl": "https://jira.example.test/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "untranslatedName": "Bug",
+      "subtask": false,
+      "hierarchyLevel": 0
+    },
+    {
+      "self": "https://jira.example.test/rest/api/3/issuetype/10003",
+      "id": "10003",
+      "description": "A small, distinct piece of work.",
+      "iconUrl": "https://jira.example.test/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Task",
+      "untranslatedName": "Task",
+      "subtask": false,
+      "hierarchyLevel": 0
+    }
+  ]
+}

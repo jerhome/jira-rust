@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "self": "https://jira.example.test/rest/agile/1.0/sprint/4",
+  "state": "future",
+  "name": "DEMO Sprint 4",
+  "startDate": "2026-11-30T08:00:00.000Z",
+  "endDate": "2026-12-14T17:00:00.000Z",
+  "createdDate": "2026-11-11T10:00:00.000Z",
+  "originBoardId": 1,
+  "goal": "Stabiliser le backlog"
+}
