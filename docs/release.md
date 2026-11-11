@@ -42,7 +42,7 @@ Le script :
 4. produit `dist/jira-rust-<version>-x86_64-linux-musl` et son fichier
    `.sha256`.
 
-Durée indicative : ~2 min 30 (build à froid), binaire d'environ 5,2 Mo.
+Durée indicative : ~2 min (build incrémental) à ~10 min (à froid), binaire d’environ 6 Mo.
 
 ## Installation
 
